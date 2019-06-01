@@ -120,6 +120,13 @@ const Result = EmberObject.extend({
   isAsync: readOnly('_result.isAsync'),
 
   /**
+   * @property isDirty
+   * @readOnly
+   * @type {Boolean}
+   */
+  isDirty: readOnly('_result.isDirty'),
+
+  /**
    * @property message
    * @readOnly
    * @type {String}
